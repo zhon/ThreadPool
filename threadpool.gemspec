@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Zhon"]
   spec.email         = ["zhon@xmission.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{A set of threads}
+  spec.description   = %q{Go look at Wikipedia for a longer description. Duh!}
   spec.homepage      = "https://github.com/zhon/threadpool"
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
