@@ -19,8 +19,8 @@ class ThreadPool
   alias :<< push
 
   def process
-    @threads = @thread_count.times.map do
-      Thread.new do
+    @thread_count.times do
+      @threads << Thread.new do
         until (item = @queue.pop) == Q_END
           item.call
         end
